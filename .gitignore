@@ -1,0 +1,3 @@
+﻿login_debug.log
+uploads/profiles/*
+!uploads/profiles/.gitkeep
