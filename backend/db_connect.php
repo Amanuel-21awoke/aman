@@ -1,11 +1,28 @@
 <?php
-$host = 'localhost';
-$user = 'root';
-$pass = '';
-$dbname = 'injibara_training_hub';
+$host   = getenv('DB_HOST') ?: 'localhost';
+$user   = getenv('DB_USER') ?: 'root';
+$pass   = getenv('DB_PASS') !== false ? getenv('DB_PASS') : '';
+$dbname = getenv('DB_NAME') ?: 'injibara_training_hub';
+$port   = getenv('DB_PORT') ? (int)getenv('DB_PORT') : 3306;
 
-$conn = new mysqli($host, $user, $pass, $dbname);
-if ($conn->connect_error) {
+$conn = mysqli_init();
+if (!$conn) {
+    die("Database initialization failed.");
+}
+
+// Enable SSL automatically when connecting to a remote cloud MySQL host that requires SSL
+$sslCa = getenv('DB_SSL_CA');
+if ($sslCa && file_exists($sslCa)) {
+    $conn->ssl_set(null, null, $sslCa, null, null);
+    $connected = @$conn->real_connect($host, $user, $pass, $dbname, $port, null, MYSQLI_CLIENT_SSL);
+} elseif (getenv('DB_SSL') === 'true') {
+    $conn->options(MYSQLI_OPT_SSL_VERIFY_SERVER_CERT, false);
+    $connected = @$conn->real_connect($host, $user, $pass, $dbname, $port, null, MYSQLI_CLIENT_SSL_DONT_VERIFY_SERVER_CERT);
+} else {
+    $connected = @$conn->real_connect($host, $user, $pass, $dbname, $port);
+}
+
+if (!$connected || $conn->connect_error) {
     die("Database connection failed: " . $conn->connect_error);
 }
 $conn->set_charset("utf8mb4");
@@ -38,5 +55,4 @@ $cat_col_chk = $conn->query("SHOW COLUMNS FROM training_programs LIKE 'category'
 if ($cat_col_chk && $cat_col_chk->num_rows === 0) {
     $conn->query("ALTER TABLE training_programs ADD COLUMN category VARCHAR(120) DEFAULT 'ICT & Data Analytics'");
 }
-
 ?>
