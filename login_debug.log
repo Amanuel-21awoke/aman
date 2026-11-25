@@ -1,0 +1,110 @@
+POST attempt for dean@inu.edu.et
+Login success for dean@inu.edu.et. Role: . Target: dashboard.php
+POST attempt for support@inu.edu.et
+Login success for support@inu.edu.et. Role: support_staff. Target: dashboard/support_staff/index.php
+POST attempt for depthead@inu.edu.et
+Login success for depthead@inu.edu.et. Role: department_head. Target: dashboard/department_head/index.php
+POST attempt for qa@inu.edu.et
+Login success for qa@inu.edu.et. Role: qa_evaluator. Target: dashboard/qa/index.php
+POST attempt for events@inu.edu.et
+Login success for events@inu.edu.et. Role: events_coordinator. Target: dashboard/events_coordinator/index.php
+POST attempt for monitoring@inu.edu.et
+Login success for monitoring@inu.edu.et. Role: monitoring_officer. Target: dashboard/monitoring_officer/index.php
+POST attempt for dean@inu.edu.et
+Login success for dean@inu.edu.et. Role: . Target: dashboard.php
+POST attempt for dean@inu.edu.et
+Login success for dean@inu.edu.et. Role: . Target: dashboard.php
+POST attempt for dean@inu.edu.et
+Login success for dean@inu.edu.et. Role: college_dean. Target: dashboard/college_dean/index.php
+POST attempt for depthead@inu.edu.et
+Login success for depthead@inu.edu.et. Role: department_head. Target: dashboard/department_head/index.php
+POST attempt for admin@inu.edu.et
+Login success for admin@inu.edu.et. Role: admin. Target: dashboard/admin/index.php
+POST attempt for events@inu.edu.et
+Login success for events@inu.edu.et. Role: events_coordinator. Target: dashboard/events_coordinator/index.php
+POST attempt for admin@inu.edu.et
+Login success for admin@inu.edu.et. Role: admin. Target: dashboard/admin/index.php
+POST attempt for admin@inu.edu.et
+Login success for admin@inu.edu.et. Role: admin. Target: dashboard/admin/index.php
+POST attempt for admin@inu.edu.et
+Login success for admin@inu.edu.et. Role: admin. Target: dashboard/admin/index.php
+POST attempt for dean@inu.edu.et
+Login success for dean@inu.edu.et. Role: college_dean. Target: dashboard/college_dean/index.php
+POST attempt for admin@inu.edu.et
+Login success for admin@inu.edu.et. Role: admin. Target: dashboard/admin/index.php
+POST attempt for admin@inu.edu.et
+Login success for admin@inu.edu.et. Role: admin. Target: dashboard/admin/index.php
+POST attempt for events@inu.edu.et
+Login success for events@inu.edu.et. Role: events_coordinator. Target: dashboard/events_coordinator/index.php
+POST attempt for admin@inu.edu.et
+Login success for admin@inu.edu.et. Role: admin. Target: dashboard/admin/index.php
+POST attempt for trainer@inu.edu.et
+Login success for trainer@inu.edu.et. Role: trainer. Target: dashboard/trainer/index.php
+POST attempt for trainee@inu.edu.et
+Login success for trainee@inu.edu.et. Role: trainee. Target: dashboard/trainee/index.php
+POST attempt for events@inu.edu.et
+Login success for events@inu.edu.et. Role: events_coordinator. Target: dashboard/events_coordinator/index.php
+POST attempt for coordinates@inu.edu.et
+Login failure for coordinates@inu.edu.et. No account found.
+POST attempt for coordinate@inu.edu.et
+Login failure for coordinate@inu.edu.et. No account found.
+POST attempt for coordinator@inu.edu.et
+Login success for coordinator@inu.edu.et. Role: coordinator. Target: dashboard/coordinator/index.php
+POST attempt for support@inu.edu.et
+Login success for support@inu.edu.et. Role: support_staff. Target: dashboard/support_staff/index.php
+POST attempt for qa@inu.edu.et
+Login success for qa@inu.edu.et. Role: qa_evaluator. Target: dashboard/qa/index.php
+POST attempt for finance@inu.edu.et
+Login success for finance@inu.edu.et. Role: finance_officer. Target: dashboard/finance/index.php
+POST attempt for registrar@inu.edu.et
+Login success for registrar@inu.edu.et. Role: registrar. Target: dashboard/registrar/index.php
+POST attempt for admin@inu.edu.et
+Login success for admin@inu.edu.et. Role: admin. Target: dashboard/admin/index.php
+POST attempt for admin@inu.edu.et
+Login success for admin@inu.edu.et. Role: admin. Target: dashboard/admin/index.php
+POST attempt for admin@inu.edu.et
+Login success for admin@inu.edu.et. Role: admin. Target: dashboard/admin/index.php
+POST attempt for admin@inu.edu.et
+Login success for admin@inu.edu.et. Role: admin. Target: dashboard/admin/index.php
+POST attempt for zedo@inu.edu.et
+Login success for zedo@inu.edu.et. Role: trainee. Target: dashboard/trainee/index.php
+POST attempt for zedo@inu.edu.et
+Login success for zedo@inu.edu.et. Role: trainee. Target: dashboard/trainee/index.php
+POST attempt for ada@inu.edu.et
+Login success for ada@inu.edu.et. Role: trainee. Target: dashboard/trainee/index.php
+POST attempt for ada@inu.edu.et
+Login success for ada@inu.edu.et. Role: trainee. Target: dashboard/trainee/index.php
+POST attempt for ada@inu.edu.et
+Login success for ada@inu.edu.et. Role: trainee. Target: dashboard/trainee/index.php
+POST attempt for ada@inu.edu.et
+Login success for ada@inu.edu.et. Role: trainee. Target: dashboard/trainee/index.php
+POST attempt for ada@inu.edu.et
+Login success for ada@inu.edu.et. Role: trainee. Target: dashboard/trainee/index.php
+POST attempt for bel@inu.edu.et
+Login success for bel@inu.edu.et. Role: trainee. Target: dashboard/trainee/index.php
+POST attempt for admin@inu.edu.et
+Login success for admin@inu.edu.et. Role: admin. Target: dashboard/admin/index.php
+POST attempt for admin@inu.edu.et
+Login success for admin@inu.edu.et. Role: admin. Target: dashboard/admin/index.php
+POST attempt for admin@inu.edu.et
+Login success for admin@inu.edu.et. Role: admin. Target: dashboard/admin/index.php
+POST attempt for certificates@inu.edu.et
+Login failure for certificates@inu.edu.et. Invalid password. Input: aman?21, Hash in DB: $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+POST attempt for certificates@inu.edu.et
+Login success for certificates@inu.edu.et. Role: certificate_officer. Target: dashboard/certificate_officer/index.php
+POST attempt for certificates@inu.edu.et
+Login failure for certificates@inu.edu.et. Invalid password. Input: aman?21, Hash in DB: $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+POST attempt for certificates@inu.edu.et
+Login success for certificates@inu.edu.et. Role: certificate_officer. Target: dashboard/certificate_officer/index.php
+POST attempt for admin@inu.edu.et
+Login success for admin@inu.edu.et. Role: admin. Target: dashboard/admin/index.php
+POST attempt for almuni@inu.edu.et
+Login failure for almuni@inu.edu.et. No account found.
+POST attempt for registrar@inu.edu.et
+Login success for registrar@inu.edu.et. Role: registrar. Target: dashboard/registrar/index.php
+POST attempt for alumi@inu.edu.et
+Login failure for alumi@inu.edu.et. No account found.
+POST attempt for sponsor@inu.edu.et
+Login success for sponsor@inu.edu.et. Role: sponsor_liaison. Target: dashboard/sponsor_liaison/index.php
+POST attempt for finance@inu.edu.et
+Login success for finance@inu.edu.et. Role: finance_officer. Target: dashboard/finance/index.php
